@@ -1,10 +1,10 @@
 === Google News Sitemap Feed With Multisite Support ===
 Contributors: timbrd
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R63HRTLVBXWAU&lc=US&item_name=Google%20News%20Sitemap%20Feed%20With%20Multisite%20Support&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
-Tags: Google, Google News, Google News Sitemap, sitemap, news sitemap, sitemap.xml, seo, wpmu, wordpress mu, multisite, multi-site, feed
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UTNH8GFGUJM78
+Tags: Google, Google News, Google News Sitemap, sitemap, news sitemap, sitemap.xml, sitemap-news.xml, seo, wpmu, wordpress mu, multisite, multi-site, feed
 Requires at least: 2.6
 Tested up to: 3.1
-Stable tag: 3.2
+Stable tag: 3.3
 
 Dynamically generates a Google News Sitemap. Multisite compatible.
 
@@ -137,7 +137,7 @@ Try to refresh the Permalink structure in WordPress. Go to Settings > Permalinks
 
 = I like the plugin! It brought me tons of traffic from Google News! =
 
-Donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R63HRTLVBXWAU&lc=US&item_name=Google%20News%20Sitemap%20Feed%20With%20Multisite%20Support&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted). Any amount will help to keep the code updated. Thank you!
+Donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UTNH8GFGUJM78). Any amount will help to keep the code updated. Thank you!
 
 == Screenshots ==
 
@@ -145,15 +145,20 @@ Donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&busines
 
 == Upgrade Notice ==
 
+= 3.3 =
+Includes categories in keywords. Uncategorized category is omitted.
+
 = 3.2 =
-Safe to upgrade from previous versions.
+Properly shows titles with special characters.
 
 == Changelog ==
 
+= 3.3 =
+* Includes categories in keywords. Uncategorized category is omitted.
+
 = 3.2 =
-* Properly shows titles with special characters
-* Database request tune up for blogs with more than 1000 posts for last 2 days
+* Properly shows titles with special characters.
+* Database request tune up for blogs with more than 1000 posts for last 2 days.
 
 = 3.1 =
-* Based on XML Sitemap & Google News Sitemap Feeds plugin v.3.9.1
-
+* Based on XML Sitemap & Google News Sitemap Feeds plugin v.3.9.1.
