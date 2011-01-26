@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: Google News Sitemap Feed With Multisite Support
-Description: Dynamically generates a Google News Sitemap. No settings. Happy with it? Make a <strong><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R63HRTLVBXWAU&lc=US&item_name=Google%20News%20Sitemap%20Feed%20With%20Multisite%20Support&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">donation</a></strong>. Thanks!
-Version: 3.1
+Description: Dynamically generates a Google News Sitemap. No settings. Happy with it? Make a <strong><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UTNH8GFGUJM78">donation</a></strong>. Thanks!
+Version: 3.3
 Author: Tim Brandon
 Author URI: http://profiles.wordpress.org/users/timbrd/
 */
@@ -46,7 +46,7 @@ Author URI: http://profiles.wordpress.org/users/timbrd/
 /* --------------------
  *      CONSTANTS
  * -------------------- */
-define('XMLSF_VERSION','3.1');
+define('XMLSF_VERSION','3.2');
 define('XMLSF_MEMORY_LIMIT','128M');
 
 if (file_exists(dirname(__FILE__).'/google-news-sitemap-feed-mu'))

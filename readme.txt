@@ -1,10 +1,10 @@
 === Google News Sitemap Feed With Multisite Support ===
 Contributors: timbrd
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R63HRTLVBXWAU&lc=US&item_name=Google%20News%20Sitemap%20Feed%20With%20Multisite%20Support&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
-Tags: Google, Google News, Google News Sitemap, sitemap, news sitemap, sitemap.xml, seo, wpmu, wordpress mu, multisite, multi-site, feed
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UTNH8GFGUJM78
+Tags: Google, Google News, Google News Sitemap, sitemap, news sitemap, sitemap.xml, sitemap-news.xml, seo, wpmu, wordpress mu, multisite, multi-site, feed
 Requires at least: 2.6
 Tested up to: 3.1
-Stable tag: 3.1
+Stable tag: 3.3
 
 Dynamically generates a Google News Sitemap. Multisite compatible.
 
@@ -50,6 +50,11 @@ Yes. In fact, it has been designed for it. Tested on WPMU 2.9.2 and WPMS 3.0.4 b
 = Can I run this on a Wordpress single site setup? =
 
 Yes.
+
+= Does it support different languages? =
+
+Yes. Please make sure to properly set Rss Language in Site options. It should be an [ISO 639 Language Code](http://www.loc.gov/standards/iso639-2/php/code_list.php) (2 letters). 
+Exception: For Chinese, please use zh-cn for Simplified Chinese or zh-tw for Traditional Chinese.
 
 = Can I run this plugin from /mu-plugins/ on WP3.0 MS or WPMU ? =
 
@@ -132,7 +137,7 @@ Try to refresh the Permalink structure in WordPress. Go to Settings > Permalinks
 
 = I like the plugin! It brought me tons of traffic from Google News! =
 
-Donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R63HRTLVBXWAU&lc=US&item_name=Google%20News%20Sitemap%20Feed%20With%20Multisite%20Support&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted). Thank you!
+Donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UTNH8GFGUJM78). Any amount will help to keep the code updated. Thank you!
 
 == Screenshots ==
 
@@ -140,11 +145,20 @@ Donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&busines
 
 == Upgrade Notice ==
 
-= 3.1 =
-Safe to upgrade from previous versions.
+= 3.3 =
+Includes categories in keywords. Uncategorized category is omitted.
+
+= 3.2 =
+Properly shows titles with special characters.
 
 == Changelog ==
 
-= 3.1 =
-* Based on XML Sitemap & Google News Sitemap Feeds plugin v.3.9.1
+= 3.3 =
+* Includes categories in keywords. Uncategorized category is omitted.
 
+= 3.2 =
+* Properly shows titles with special characters.
+* Database request tune up for blogs with more than 1000 posts for last 2 days.
+
+= 3.1 =
+* Based on XML Sitemap & Google News Sitemap Feeds plugin v.3.9.1.
