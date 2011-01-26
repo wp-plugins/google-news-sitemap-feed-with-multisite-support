@@ -38,6 +38,12 @@ class XMLSitemapFeed {
 	  return $where;
 	}
 
+	function xml_sitemap_feed_news_filter_limits($limits) {
+	  // maximum number of URLs allowed in a news sitemap
+	  $limits = ' LIMIT 1000';
+	  return $limits;
+	}
+
 	// REWRITES //
 	// add sitemap rewrite rules
 	function rewrite($wp_rewrite) {
